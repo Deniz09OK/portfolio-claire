@@ -3,7 +3,7 @@ name: Déploiement de mon portfolio via GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 permissions:
