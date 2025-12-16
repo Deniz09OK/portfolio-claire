@@ -1,0 +1,138 @@
+baseURL = 'https://example.org/'
+languageCode = 'fr-fr'
+title = 'Portfolio de Claire Estelle Zobo'
+theme = 'PaperMod'
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  description = "Portfolio de Claire Estelle Zobo - Étudiante en Master 1 Cybersécurité à Epitech Nancy. 5+ ans d'expérience en réseaux et télécommunications. En recherche d'alternance."
+  keywords = ["cybersécurité", "pentesting", "réseaux", "télécommunications", "administration systèmes", "DevOps", "alternance", "Epitech", "Nancy"]
+  author = "Claire Estelle Zobo"
+  images = ["/images/profile.jpg"]
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = false
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = true
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  # Favicon
+  [params.assets]
+    favicon = "/favicon.svg"
+    favicon16x16 = "/favicon.svg"
+    favicon32x32 = "/favicon.svg"
+    apple_touch_icon = "/favicon.svg"
+
+  # Footer personnalisé
+  [params.label]
+    text = "Claire Estelle Zobo"
+    icon = ""
+    iconHeight = 0
+
+  # Configuration du profil
+  [params.profileMode]
+    enabled = true
+    title = "Claire Estelle Zobo"
+    subtitle = "Cybersécurité • Epitech Nancy • En recherche d'alternance"
+    imageUrl = "images/profile.jpg"
+    imageTitle = "Claire Estelle Zobo"
+
+    [[params.profileMode.buttons]]
+      name = "Projets"
+      url = "/projets"
+
+    [[params.profileMode.buttons]]
+      name = "Compétences"
+      url = "/competences"
+
+    [[params.profileMode.buttons]]
+      name = "Expérience"
+      url = "/experience"
+
+    [[params.profileMode.buttons]]
+      name = "Contact"
+      url = "/contact"
+
+  # Liens sociaux
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/claire-estelle-zobo"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:zoboclaireestelle@gmail.com"
+
+  # Configuration des couleurs (thème clair)
+  [params.colors]
+    primary = "#FF69B4"  # Rose vif
+    secondary = "#FF1493"  # Rose profond
+    accent = "#FFC0CB"  # Rose pâle
+
+# Menu principal
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "À propos"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "competences"
+    name = "Compétences"
+    url = "/competences/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "experience"
+    name = "Expérience"
+    url = "/experience/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "projets"
+    name = "Projets"
+    url = "/projets/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 50
+
+# Configuration des permaliens personnalisés
+[permalinks]
+  projets = "/:slug/"
+  about = "/a-propos/"
+  contact = "/contact/"
+  competences = "/competences/"
+  experience = "/experience/"
+
+# Open Graph et SEO
+[params.homeInfoParams]
+  Title = "Claire Estelle Zobo"
+  Content = "Étudiante en Cybersécurité • Epitech Nancy • En recherche d'alternance"
+
+# Configuration du markup
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Sitemap configuration
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"

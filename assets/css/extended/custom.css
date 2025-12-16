@@ -1,0 +1,346 @@
+/* Thème Rose Cybersécurité pour Claire */
+
+:root {
+    --primary-pink: #E91E63;
+    --secondary-pink: #FF4081;
+    --light-pink: #F8BBD0;
+    --dark-pink: #C2185B;
+    --cyber-dark: #1a1a2e;
+    --cyber-accent: #0f3460;
+}
+
+/* Amélioration de la lisibilité générale */
+body {
+    line-height: 1.7;
+}
+
+.post-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Espacement amélioré pour les titres */
+h2, h3, h4 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.2rem;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+/* Espacement des paragraphes */
+p {
+    margin-bottom: 1.2rem;
+}
+
+/* Espacement des listes */
+ul, ol {
+    margin-bottom: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Liens et éléments interactifs avec transitions */
+a {
+    color: var(--primary-pink);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: var(--secondary-pink);
+}
+
+/* Boutons améliorés */
+.button,
+button,
+.profile-mode .buttons a {
+    background: linear-gradient(135deg, var(--primary-pink), var(--secondary-pink));
+    color: white !important;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(233, 30, 99, 0.2);
+}
+
+.button:hover,
+button:hover,
+.profile-mode .buttons a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(233, 30, 99, 0.5);
+    background: linear-gradient(135deg, var(--secondary-pink), var(--primary-pink));
+}
+
+/* En-tête */
+.nav a:hover,
+.logo a:hover {
+    color: var(--primary-pink) !important;
+}
+
+/* Logo à gauche */
+.logo a {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Menu navigation à droite */
+#menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#menu a {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Bouton thème sombre même taille */
+#theme-toggle {
+    font-size: 1rem !important;
+    padding: 0.5rem 0.5rem !important;
+
+    width: auto !important;
+    height: auto !important;
+    min-width: unset !important;
+}
+
+/* Mode profil - Header amélioré */
+.profile-mode .profile-text {
+    color: var(--cyber-dark);
+}
+
+.profile-mode h1 {
+    background: linear-gradient(135deg, var(--primary-pink), var(--secondary-pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.profile-mode .profile-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/* Rendre l'image de profil ronde et stylée */
+.profile-mode img {
+    border-radius: 50%;
+    border: 4px solid var(--light-pink);
+    box-shadow: 0 4px 15px rgba(233, 30, 99, 0.2);
+    transition: all 0.3s ease;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.profile-mode img:hover {
+    border-color: var(--primary-pink);
+    box-shadow: 0 6px 20px rgba(233, 30, 99, 0.3);
+    transform: scale(1.05);
+}
+
+/* Tags et badges */
+.tag,
+.skill-tag {
+    background-color: var(--light-pink);
+    color: var(--dark-pink);
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-weight: 500;
+}
+
+.tag:hover {
+    background-color: var(--primary-pink);
+    color: white;
+}
+
+/* Cartes de projets */
+.post-entry {
+    border: 1px solid var(--light-pink);
+    transition: all 0.3s ease;
+}
+
+.post-entry:hover {
+    border-color: var(--primary-pink);
+    box-shadow: 0 5px 20px rgba(233, 30, 99, 0.2);
+    transform: translateY(-3px);
+}
+
+/* Icônes sociales */
+.social-icons a {
+    color: var(--primary-pink);
+}
+
+.social-icons a:hover {
+    color: var(--secondary-pink);
+    transform: scale(1.1);
+}
+
+/* Accents cybersécurité */
+.cyber-accent {
+    border-left: 4px solid var(--primary-pink);
+    padding-left: 16px;
+}
+
+/* Sections */
+.section-title {
+    color: var(--primary-pink);
+    font-weight: 700;
+    margin-bottom: 24px;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-pink), var(--secondary-pink));
+}
+
+/* Code blocks avec accent rose */
+pre {
+    border-left: 3px solid var(--primary-pink);
+}
+
+/* Compétences en cybersécurité */
+.skill-category {
+    margin-bottom: 30px;
+}
+
+.skill-bar {
+    background-color: var(--light-pink);
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.skill-progress {
+    background: linear-gradient(90deg, var(--primary-pink), var(--secondary-pink));
+    height: 100%;
+    border-radius: 4px;
+    transition: width 1s ease;
+}
+
+/* Footer */
+footer {
+    border-top: none;
+}
+
+/* Masquer la mention Hugo */
+footer span:last-child {
+    display: none;
+}
+
+/* Cartes de projets améliorées */
+.project-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border: 2px solid var(--light-pink);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-pink);
+    box-shadow: 0 8px 25px rgba(233, 30, 99, 0.3);
+}
+
+.project-card h3 {
+    color: var(--primary-pink);
+    margin-top: 0;
+}
+
+/* Timeline pour l'expérience */
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--primary-pink), var(--secondary-pink));
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2.5rem;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--primary-pink);
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px var(--light-pink);
+}
+
+.timeline-item h2, .timeline-item h3 {
+    margin-top: 0;
+}
+
+/* Icônes de sections */
+.section-icon {
+    display: inline-block;
+    margin-right: 0.5rem;
+    color: var(--primary-pink);
+}
+
+/* Mode sombre amélioré avec meilleur contraste */
+.dark {
+    --primary-pink: #FF6B9D;
+    --secondary-pink: #FF4081;
+    --light-pink: #4A2639;
+}
+
+.dark a {
+    color: var(--primary-pink);
+}
+
+.dark .section-title {
+    color: var(--secondary-pink);
+}
+
+.dark .project-card {
+    background: #1a1a2e;
+    border-color: var(--light-pink);
+}
+
+.dark .timeline-item::before {
+    border-color: #1a1a2e;
+}
+
+.dark body {
+    color: #e0e0e0;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4 {
+    color: #f0f0f0;
+}
