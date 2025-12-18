@@ -251,5 +251,3 @@ Ce portfolio est un projet personnel. Le contenu est protégé par le droit d'au
 **Portfolio créé avec ❤️ et 🔐**
 
 *Dernière mise à jour: Décembre 2025*
-
-**Status**: Portfolio fonctionnel et personnalisé avec les vraies informations. Prêt à être déployé en ligne.
