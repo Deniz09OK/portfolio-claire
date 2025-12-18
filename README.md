@@ -63,9 +63,7 @@ portfolio-claire/
 │       └── deploy.yml  # GitHub Actions pour déploiement automatique
 ├── hugo.toml           # Configuration principale
 ├── .gitignore          # Fichiers à ignorer
-├── CLAUDE.md           # Documentation complète du projet
 ├── DEPLOYMENT.md       # Guide de déploiement détaillé
-└── GITHUB-PAGES-QUICKSTART.md  # Guide rapide GitHub Pages
 ```
 
 ## 🎨 Palette de Couleurs
