@@ -17,14 +17,16 @@ description: "Compétences techniques de Claire Estelle Zobo en cybersécurité,
 - **IDS/IPS** (Intrusion Detection/Prevention Systems)
 
 ### Gestion des Accès et Identités
-- **Authentification multi-facteurs (MFA)**
+- **Authentification multi-facteurs (MFA)** : mise en place et configuration
+- **Segmentation réseau** : isolation des segments, VLANs de sécurité
+- **Gestion des droits et des accès** : principe du moindre privilège
 - Gestion des **comptes utilisateurs** et permissions
 - **Politiques de sécurité** et conformité
 - Contrôle d'accès basé sur les rôles (RBAC)
 
 ### Sécurité Défensive
-- **Hardening** de systèmes (durcissement)
-- Application de **bonnes pratiques de sécurité**
+- **Durcissement système** : configuration sécurisée, désactivation de services inutiles
+- **Bonnes pratiques de sécurité** : principe du moindre privilège, defense in depth
 - **Monitoring** et supervision de sécurité
 - Détection d'incidents et réponse
 - **Forensics** de base
@@ -37,53 +39,71 @@ description: "Compétences techniques de Claire Estelle Zobo en cybersécurité,
 
 ## Réseaux et Télécommunications
 
-### Équipements et Protocoles
+### Protocoles Réseaux
+- **TCP/IP** : Modèle OSI, adressage IP, subnetting
+- **DNS** : Configuration et résolution de noms
+- **DHCP** : Attribution dynamique d'adresses IP
+- **VPN** : Tunnels sécurisés, accès distant
+- **HTTP/HTTPS** : Protocoles web et sécurisation SSL/TLS
+
+### Équipements et Infrastructure
 - **Routeurs** : Cisco, Mikrotik
 - **Commutateurs** (Switches) : Configuration VLANs, STP
 - **Points d'accès WiFi** et réseaux sans fil
-- **Protocoles** : TCP/IP, DNS, DHCP, FTP, HTTP/HTTPS, SSH
-- Routage statique et dynamique (OSPF, BGP basics)
-
-### Infrastructure et Déploiement
 - **Câblage structuré** et installation physique
 - Conception d'**architectures réseau**
 - Installation de **liaisons Internet**
-- **Supervision du trafic** réseau
-- Tests de connectivité et performance
 
-### Administration Réseau
-- **Gestion du réseau local (LAN)**
-- Configuration de services réseau (DNS, DHCP, FTP)
-- **Diagnostic et résolution de pannes**
+### Dépannage et Analyse
+- **Diagnostic des pannes** réseau
+- **Tests de connectivité** : ping, traceroute, netstat
+- **Analyse réseau avec Wireshark** : capture et analyse de paquets
+- **Supervision du trafic** réseau
 - Optimisation des performances réseau
 - Documentation technique
 
 ## Administration Systèmes
 
-### Systèmes d'Exploitation
-- **Linux** : Debian, Ubuntu, CentOS
-  - Administration système
-  - Gestion des services
-  - Shell scripting (Bash)
-- **Windows Server**
-  - Active Directory basics
-  - Gestion des services
-  - PowerShell scripting
+### Systèmes Linux
+- **Distribution** : Ubuntu, Debian
+- **Gestion des utilisateurs** : création, modification, permissions
+- **Gestion des services** : systemctl, service management
+- **Gestion des permissions** : chmod, chown, ACL
+- **Scripting Bash** : automatisation de tâches
+
+### Windows Server
+- **Gestion des rôles** : installation et configuration
+- **GPO** (Group Policy Objects) : politiques de groupe
+- **Active Directory** : notions de base, gestion des utilisateurs
+- **Scripting PowerShell** : bases de l'automatisation
 
 ### Services et Applications
 - Configuration de **services réseaux** (DNS, DHCP, FTP, SSH)
 - Gestion de **serveurs web** (Apache, Nginx)
-- **Virtualisation** : VMware, VirtualBox
-- **Conteneurisation** : Docker basics
+- **Virtualisation** : VMware, VirtualBox (création et gestion de VMs)
+- **Conteneurisation** : Docker (notions, Dockerfile, docker-compose)
 - Automatisation et scripting
 
-## DevOps et Outils
+## Virtualisation et DevOps
 
-### Automatisation
-- **Scripts Bash** pour automatisation
-- **PowerShell** pour administration Windows
-- Configuration management basics
-- CI/CD concepts
+### Virtualisation
+- **VirtualBox** : création et gestion de machines virtuelles
+- **VMware** : déploiement et configuration de VMs
+- Gestion de snapshots et clonage
+- Configuration de réseaux virtuels
+
+### Conteneurisation
+- **Docker** : notions de base
+- Création de **Dockerfile**
+- Orchestration avec **docker-compose**
+- Gestion d'images et de conteneurs
+
+### DevOps et Automatisation
+- **CI/CD** : bases de l'intégration et déploiement continus
+- **GitHub Actions** : automatisation de workflows
+- **Automatisation de tâches** : scripts et pipelines
+- **Scripts Bash** pour automatisation Linux
+- **PowerShell** (bases) pour administration Windows
 
 ### Outils de Sécurité
 - **Nmap** : Scanning et reconnaissance

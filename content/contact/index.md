@@ -11,7 +11,7 @@ Je suis actuellement **en recherche d'une alternance en cybersécurité** et ouv
 
 ## Email
 
-**zoboclaireestelle@gmail.com**
+**claire-estelle.zobo@epitech.eu**
 
 N'hésitez pas à m'envoyer un email pour toute question ou opportunité professionnelle.
 
@@ -106,7 +106,7 @@ Pour les communications sensibles liées à la cybersécurité, je peux utiliser
 ## Liens
 
 - **LinkedIn** : [linkedin.com/in/claire-estelle-zobo](https://www.linkedin.com/in/claire-estelle-zobo)
-- **Email** : zoboclaireestelle@gmail.com
+- **Email** : claire-estelle.zobo@epitech.eu
 - **Localisation** : Nancy, Grand Est, France
 
 ---

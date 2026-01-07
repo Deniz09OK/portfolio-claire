@@ -11,7 +11,7 @@ Portfolio professionnel développé avec Hugo, présentant mon parcours en cyber
 - Localisation: Nancy, Grand Est, France
 
 **Contact:**
-- Email: zoboclaireestelle@gmail.com
+- Email: claire-estelle.zobo@epitech.eu
 - LinkedIn: [linkedin.com/in/claire-estelle-zobo](https://www.linkedin.com/in/claire-estelle-zobo)
 
 ## 🎨 Caractéristiques du Portfolio
@@ -239,7 +239,7 @@ Ce portfolio met en avant des compétences en cybersécurité. Tous les exemples
 ## 📞 Contact
 
 Pour toute question concernant ce portfolio:
-- **Email**: zoboclaireestelle@gmail.com
+- **Email**: claire-estelle.zobo@epitech.eu
 - **LinkedIn**: [Claire Estelle Zobo](https://www.linkedin.com/in/claire-estelle-zobo)
 
 ## 📝 Licence

@@ -69,7 +69,7 @@ buildExpired = false
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:zoboclaireestelle@gmail.com"
+    url = "mailto:claire-estelle.zobo@epitech.eu"
 
   # Configuration des couleurs (thème clair)
   [params.colors]
