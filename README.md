@@ -142,55 +142,6 @@ hugo new content/projets/nom-projet.md
 rm -rf public resources
 ```
 
-## 📦 Déploiement
-
-### GitHub Pages (Recommandé)
-
-Le projet inclut un workflow GitHub Actions (`.github/workflows/deploy.yml`) pour le déploiement automatique.
-
-**Guide rapide:**
-1. Créer un dépôt GitHub public
-2. Modifier `baseURL` dans `hugo.toml`
-3. Pousser le code sur GitHub
-4. Activer GitHub Pages (Settings → Pages → Source: GitHub Actions)
-
-**Documentation complète:** Voir `GITHUB-PAGES-QUICKSTART.md` et `DEPLOYMENT.md`
-
-### Autres options de déploiement
-
-- **Netlify**: Build command: `hugo`, Publish directory: `public`
-- **Vercel**: Détection automatique Hugo
-- **GitLab Pages**: Utiliser `.gitlab-ci.yml`
-
-## ✨ Améliorations Apportées
-
-### Design et UX
-- ✅ Espacement vertical amélioré (2.5rem pour h2/h3/h4)
-- ✅ Lisibilité accrue (line-height: 1.7)
-- ✅ Transitions douces (0.3s ease) sur tous les liens
-- ✅ Boutons avec effets hover prononcés
-- ✅ Mode sombre avec meilleurs contrastes
-
-### Composants Visuels
-- ✅ Cartes de projets (.project-card) avec hover effects
-- ✅ Timeline visuelle (.timeline) pour l'expérience professionnelle
-- ✅ Icônes de sections (.section-icon) prêtes pour Font Awesome
-
-### SEO et Performance
-- ✅ Favicon personnalisé (favicon.svg)
-- ✅ Meta descriptions optimisées
-- ✅ Keywords: cybersécurité, pentesting, réseaux, etc.
-- ✅ Open Graph tags pour réseaux sociaux
-- ✅ Sitemap.xml généré automatiquement
-- ✅ robots.txt activé
-- ✅ Permaliens personnalisés
-
-### Configuration
-- ✅ Métadonnées masquées (hidemeta = true)
-- ✅ Footer sans bordure
-- ✅ Mention Hugo masquée
-- ✅ Markup optimisé (unsafe HTML autorisé)
-
 ## 🎯 Prochaines Étapes Suggérées
 
 ### Court terme
@@ -206,14 +157,6 @@ Le projet inclut un workflow GitHub Actions (`.github/workflows/deploy.yml`) pou
 8. Ajouter Google Analytics ou Plausible (optionnel)
 9. Créer une page "Certifications"
 10. Optimiser les images pour le web
-
-## 📚 Documentation
-
-- **CLAUDE.md**: Documentation complète de toutes les conversations et modifications
-- **DEPLOYMENT.md**: Guide détaillé de déploiement
-- **GITHUB-PAGES-QUICKSTART.md**: Guide rapide en 5 étapes
-- **GUIDE.md**: Guide d'utilisation complet (si existant)
-- **QUICKSTART.md**: Démarrage rapide (si existant)
 
 ## 🛠️ Technologies Utilisées
 
