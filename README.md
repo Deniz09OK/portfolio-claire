@@ -4,8 +4,8 @@ Portfolio professionnel développé avec Hugo, présentant mon parcours en cyber
 
 ## 👤 À propos
 
-**Claire Estelle Zobo**
-- Étudiante en Master 1 Cybersécurité à Epitech Nancy
+**Claire Estelle Zobo - Admin Système Réseau et Cyber**
+- Étudiante en Master 1 Cybersécurité à Epitech Nancy (2025-2027)
 - 5+ ans d'expérience en réseaux et télécommunications
 - En recherche d'alternance en cybersécurité
 - Localisation: Nancy, Grand Est, France
@@ -47,7 +47,7 @@ portfolio-claire/
 │   ├── about/          # À propos - Parcours et objectifs
 │   ├── competences/    # Compétences techniques (cybersécurité, réseaux, systèmes)
 │   ├── experience/     # Expérience professionnelle (3 postes)
-│   ├── projets/        # Portfolio de projets (3 exemples)
+│   ├── projets/        # Portfolio de projets
 │   └── contact/        # Informations de contact et alternance
 ├── assets/
 │   ├── css/extended/
@@ -101,12 +101,12 @@ portfolio-claire/
 - Qualités et compétences transversales
 
 ### 3. Compétences
-- **Cybersécurité**: Analyse de vulnérabilités, audit réseau, pentesting
-- **Réseaux**: Cisco, Mikrotik, VLANs, protocoles TCP/IP
-- **Administration Systèmes**: Linux, Windows Server, virtualisation
-- **DevOps**: Bash, PowerShell, Docker, CI/CD
-- **Outils**: Nmap, Wireshark, Metasploit
-- Formation et certifications
+- **Cybersécurité**: Analyse de vulnérabilités, audit réseau, pare-feu, MFA, segmentation réseau
+- **Réseaux et Télécommunications**: Cisco, Mikrotik, VLANs, TCP/IP, DNS, DHCP, VPN, Wireshark
+- **Administration Systèmes**: Linux (Ubuntu, Debian), Windows Server, GPO, Active Directory
+- **Virtualisation/DevOps**: VirtualBox, VMware, Docker, docker-compose, CI/CD, GitHub Actions
+- **Scripting**: Bash, PowerShell
+- **Outils**: Nmap, Wireshark, Metasploit, outils de scanning
 
 ### 4. Expérience Professionnelle
 - **Sh Tech** - Apprentie en Cybersécurité (9 mois, 2021-2022)
@@ -114,10 +114,11 @@ portfolio-claire/
 - **CRTVweb** - Technicienne Réseau et Télécom (4 mois, 2017)
 
 ### 5. Projets
-Trois projets exemples à personnaliser:
-- Scanner de vulnérabilités
-- CTF Writeups
-- Honeypot SSH
+Portfolio de projets:
+- **Travel Paradise** - Application de gestion de voyage (Docker + CI/CD + GitHub Actions) ✨
+- Scanner de vulnérabilités web (Python, OWASP Top 10)
+- CTF Write-ups (Compétitions et challenges)
+- Honeypot SSH (Analyse d'attaques)
 
 ### 6. Contact
 - Email et LinkedIn
@@ -141,22 +142,6 @@ hugo new content/projets/nom-projet.md
 # Nettoyer les fichiers générés
 rm -rf public resources
 ```
-
-## 🎯 Prochaines Étapes Suggérées
-
-### Court terme
-1. Personnaliser les 3 projets exemples avec de vrais projets
-2. Déployer sur GitHub Pages
-3. Acheter un nom de domaine personnalisé (optionnel)
-4. Créer un CV téléchargeable en PDF
-
-### Moyen terme
-5. Ajouter des certifications (CompTIA, CEH, etc.)
-6. Créer un blog pour partager des articles de cybersécurité
-7. Intégrer des badges de compétences (HackTheBox, TryHackMe)
-8. Ajouter Google Analytics ou Plausible (optionnel)
-9. Créer une page "Certifications"
-10. Optimiser les images pour le web
 
 ## 🛠️ Technologies Utilisées
 
@@ -193,4 +178,4 @@ Ce portfolio est un projet personnel. Le contenu est protégé par le droit d'au
 
 **Portfolio créé avec ❤️ et 🔐**
 
-*Dernière mise à jour: Décembre 2025*
+*Dernière mise à jour: Janvier 2026*
