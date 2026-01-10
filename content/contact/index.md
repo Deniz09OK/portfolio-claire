@@ -81,10 +81,6 @@ Je suis activement à la recherche d'une **alternance en cybersécurité** pour 
 
 **Immédiate** pour une alternance
 
-**Rythme souhaité :**
-- Alternance classique (3 jours entreprise / 2 jours école)
-- Ou selon les besoins de l'entreprise
-
 **Durée :**
 - Master 1 et Master 2 : 2 ans (2025-2027)
 - Possibilité de continuer au-delà selon les opportunités
