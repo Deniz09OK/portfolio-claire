@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://deniz09ok.github.io/portfolio-claire/'
 languageCode = 'fr-fr'
 title = 'Portfolio de Claire Estelle Zobo'
 theme = 'PaperMod'
@@ -22,7 +22,7 @@ buildExpired = false
   comments = false
   hidemeta = true
   hideSummary = false
-  showtoc = false
+  showtoc = true
   tocopen = false
 
   # Favicon
@@ -75,7 +75,7 @@ buildExpired = false
   [params.colors]
     primary = "#FF69B4"  # Rose vif
     secondary = "#FF1493"  # Rose profond
-    accent = "#FFC0CB"  # Rose pâle
+    accent = "#DB7093"  # Rose plus foncé pour contraste
 
 # Menu principal
 [menu]
