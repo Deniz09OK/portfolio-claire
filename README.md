@@ -2,6 +2,8 @@
 
 Portfolio professionnel développé avec Hugo, présentant mon parcours en cybersécurité, réseaux et télécommunications.
 
+🔗 **[Voir le portfolio en ligne](https://deniz09ok.github.io/portfolio-claire/)**
+
 ## 👤 À propos
 
 **Claire Estelle Zobo - Admin Système Réseau et Cyber**
@@ -22,7 +24,8 @@ Portfolio professionnel développé avec Hugo, présentant mon parcours en cyber
 - **SEO**: Optimisé avec meta descriptions, Open Graph, sitemap
 - **Favicon**: Logo personnalisé rose avec initiales
 - **Responsive**: Design adaptatif pour tous les appareils
-- **Mode sombre**: Contraste amélioré pour une meilleure lisibilité
+- **Mode sombre**: Contraste amélioré avec nouvelle couleur d'accentuation (`#DB7093`)
+- **Navigation**: Table des matières (ToC) activée pour les projets détaillés
 
 ## 🚀 Démarrage Rapide
 
@@ -176,6 +179,6 @@ Ce portfolio est un projet personnel. Le contenu est protégé par le droit d'au
 
 ---
 
-**Portfolio créé avec ❤️ et 🔐**
+**Portfolio créé avec ❤️**
 
-*Dernière mise à jour: Janvier 2026*
+*Dernière mise à jour: 10 Janvier 2026*

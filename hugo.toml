@@ -11,7 +11,7 @@ buildExpired = false
   description = "Portfolio de Claire Estelle Zobo - Étudiante en Master 1 Cybersécurité à Epitech Nancy. 5+ ans d'expérience en réseaux et télécommunications. En recherche d'alternance."
   keywords = ["cybersécurité", "pentesting", "réseaux", "télécommunications", "administration systèmes", "DevOps", "alternance", "Epitech", "Nancy"]
   author = "Claire Estelle Zobo"
-  images = ["/images/profile.jpg"]
+  images = ["/images/profile.webp"]
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -43,7 +43,7 @@ buildExpired = false
     enabled = true
     title = "Claire Estelle Zobo"
     subtitle = "Cybersécurité • Epitech Nancy • En recherche d'alternance"
-    imageUrl = "images/profile.jpg"
+    imageUrl = "images/profile.webp"
     imageTitle = "Claire Estelle Zobo"
 
     [[params.profileMode.buttons]]
