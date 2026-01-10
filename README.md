@@ -173,10 +173,6 @@ Pour toute question concernant ce portfolio:
 - **Email**: claire-estelle.zobo@epitech.eu
 - **LinkedIn**: [Claire Estelle Zobo](https://www.linkedin.com/in/claire-estelle-zobo)
 
-## 📝 Licence
-
-Ce portfolio est un projet personnel. Le contenu est protégé par le droit d'auteur.
-
 ---
 
 **Portfolio créé avec ❤️**
